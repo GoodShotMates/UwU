@@ -1,0 +1,52 @@
+body {
+    font-family: Roboto Mono;
+    background-image: url(img/wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgba(212, 148, 29, 0.863);
+}
+
+.container {
+    min-height: 500px;
+    margin: 0 auto;
+    display: flex; /* Added */
+    flex-direction: column; /* Added to stack thumbnails vertically */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.thumbnail {
+    text-align: center;
+    background-color: #1c0b04;
+    border-radius: 10px;
+    padding: 10px;
+    width: 30%;
+    margin: 10px;
+}
+
+img{
+    display: block;
+    margin: auto;
+    height: 176px;
+    width: 176px;
+}
+
+h1 {
+    font-size: 100px;
+    border-bottom: 5px solid rgba(212, 148, 29, 0.863);
+}
+
+a:visited {
+    color: rgba(212, 148, 29, 0.863);
+}
+
+.links {
+    background-color: #2D1912;
+    border-radius: 5px;
+    padding: 10px;
+    width: 30%;
+}
+
+.footer{
+    text-align: center;
+}
