@@ -28,6 +28,18 @@ textarea{
     border: 1px solid #1c0b04;
 }
 
+button {
+    background-color: rgba(212, 148, 29, 0.863);
+    display: block; /* Make the button a block-level element */
+    margin: 0 auto; /* Center the button horizontally */
+    padding: 0.5em 1em; /* Adjust padding for size */
+    border: none; /* Remove border for a cleaner look */
+    border-radius: 3px;
+    color: #fff; /* Set text color to white for better contrast */
+    cursor: pointer; /* Add pointer cursor for better user experience */
+}
+
+
 #complaint{
     height: 250px;
 }
