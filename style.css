@@ -156,6 +156,7 @@ br{
     /* Define styles for smaller screens here */
 
     .news{
+        word-wrap: breakword;
         width: 80%;
     }
     img {
