@@ -1,5 +1,5 @@
 body {
-    background-image: url(../img/darkcity.jpg);
+    background-image: url(darkcity.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -7,7 +7,7 @@ body {
 .hero {
     text-align: center;
     border: 0.1em solid;
-    background-image: url(../img/rain.gif);
+    background-image: url(bluesky.jpg);
     margin: 4.5em auto;
     height: 80vh;
     width: 95%;
