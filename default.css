@@ -1,0 +1,84 @@
+
+* {
+    border-radius: 1em;
+    color: #E1C16E;
+    font-family: Roboto;
+}
+
+br{
+    line-height: 3;
+}
+
+div{
+    background-color: rgb(35, 39, 42, 0.500);
+    border: 0.2em solid;
+}
+
+button {
+    background-color: rgb(54, 69, 79, 0.800);
+    display: block;
+    padding: 0.5em 1em;
+    border: 0.1em solid;
+    border-radius: 0.1em;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+button:hover {
+    background-color: rgb(225, 193, 110);
+    color:#36454F;
+    transform: translateY(-3px);
+}
+
+nav{
+    border-radius: 0%;
+    border: 0.1em solid;
+    /* ul css. */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(54, 69, 79, 0.800);
+
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav li{
+    font-size: 2vh;
+    list-style-type: none;
+    float: left;
+}
+
+nav li a {
+    border-radius: 0;
+    transition: all 0.3s;
+    color: #E1C16E;
+    display: block;
+    text-align: center;
+    padding: 1em 1em;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: rgb(225, 193, 110);
+    color:#36454F;
+    transform: translateY(-3px);
+}
+
+
+h1{
+    font-size: 6em;
+}
+
+h2{
+    border-radius: 0;
+    font-size: 8em;
+    border-bottom: 3px solid;
+    margin: 0;
+}
+
+h3{
+    font-size: 4em;
+}
+
